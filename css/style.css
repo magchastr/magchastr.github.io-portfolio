@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-/* header */
+
 header {
     width: 100%;
     border-bottom: 1px solid #ddd;
@@ -22,7 +22,7 @@ header .inner {
     width: 1180px;
     height: 120px;
     margin: 0px auto;
-    position: relative; /*자식 absolute 요소의 기준점 설정*/
+    position: relative; 
 }
 
 header .inner h1 {
@@ -79,7 +79,6 @@ header .inner #gnb li a:hover {
 figure {
     width: 100%;
     height: calc(100vh - 120px)l;
-    /*전체 브라우저 높이에서 120px만큼 빼줌*/
     background: #000;
     position: relative;
     overflow: hidden;
@@ -87,7 +86,7 @@ figure {
 }
 
 figure video {
-    object-fit: cover; /*영상을 figure안쪽에 꽉 차도록 설정*/
+    object-fit: cover; 
     width: 100%;
     height: 100%;
     opacity: 0.3;
@@ -114,7 +113,7 @@ figure .inner p {
 	margin-bottom: 60px;
 }
 
-figure .inner a {	/*view detail 박스 부분*/
+figure .inner a {	
 	display: block;
 	width: 400px;
 	height: 30px;
@@ -131,7 +130,7 @@ figure .inner a:hover {
 	color: #555;
 }
 
-/* news */
+
 section {
 	width: 100%;
 	padding: 200px 0px;
@@ -150,7 +149,7 @@ section .inner .wrap {
 	width: 100%;
 }
 section .inner .wrap::after {
-	/*자식 요소인 article의 float해제*/
+	
 	content: "";
 	display: block;
 	clear: both;
@@ -161,7 +160,7 @@ section .inner .wrap article {
 	margin-right: 20px;
 }
 section .inner .wrap article:last-child {
-	/*제일 오른쪽 마지막 요소만 여백제거*/
+	
 	margin-right: 0px;
 }
 section .inner .wrap article h2 {
@@ -188,7 +187,7 @@ section .inner .wrap article .pic img {
 	width: 100%;
 	height: 100%;
 }
-/* footer */
+
 footer {
 	width: 100%;
 	background: #333;
